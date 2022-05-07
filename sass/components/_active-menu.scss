@@ -2,17 +2,17 @@
 .active {
     color: $link-accent;
     position: relative;
-}
+    
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
 
-.active::after {
-    content: '';
-    position: absolute;
-    bottom: -1px;
-    left: 0;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
 
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-
-    background-color: $link-accent;
+        background-color: $link-accent;
+    }
 }

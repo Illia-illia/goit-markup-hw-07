@@ -12,23 +12,29 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-}
 
-.modal__icon-close {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    border: 1px solid $bg-modal-sec;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: transparent;
-    transition: fill $duration250ms $time-function;
-}
+    .backdrop.is-hidden & {
+        top: 50%;
+        left: 50%;
+        transform: rotateY(180deg) rotateX(0) translate(-50%, -50%) scale(0.1);
+        }
 
-.modal__icon-close:focus,
-.modal__icon-close:hover {
-    fill: $link-accent;
+    &__icon-close {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border: 1px solid $bg-modal-sec;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: transparent;
+        transition: fill $duration250ms $time-function;
+    }
+
+    &__icon-close:focus,
+    &__icon-close:hover {
+        fill: $link-accent;
+    }
 }

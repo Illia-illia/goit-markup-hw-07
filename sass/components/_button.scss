@@ -16,9 +16,10 @@
   background-color: $link-accent;
   color: $secondary-accent;
 
+  &:hover,
+  &:focus {
+      background-color: $secbtn-color;
+    }
 }
 
-.btn:hover,
-.btn:focus {
-  background-color: $secbtn-color;
-}
+

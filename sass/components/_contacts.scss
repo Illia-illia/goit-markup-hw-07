@@ -3,32 +3,33 @@
     display: flex;
     margin-left: auto;
     align-items: center;
-}
 
-.contacts__link {
-    transition: color $duration250ms $time-function;
+    &__link {
+            transition: color $duration250ms $time-function;
+    
+            padding-top: $padding32;
+            padding-bottom: $padding32;
+    
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+    
+            color: $secondary-text;
+        }
 
-    padding-top: $padding32;
-    padding-bottom: $padding32;
+    &__link:hover,
+    &__link:focus {
+        color: $link-accent;
+    }
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    color: $secondary-text;
+    &__icon {
+        fill: currentColor;
+        vertical-align: middle;
+    }
 }
 
 .header__icon{
     margin-right: $margin10;
 }
 
-.contacts__icon {
-    fill: currentColor;
-    vertical-align: middle;
-}
-
-.contacts__link:hover,
-.contacts__link:focus {
-    color: $link-accent;
-}

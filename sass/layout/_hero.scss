@@ -17,19 +17,19 @@
     padding-bottom: $padding200;
 
     text-align: center;
-}
 
-.hero__capt {
-    max-width: 700px;
-    margin-right: auto;
-    margin-bottom: $margin30;
-    margin-left: auto;
+    &__capt {
+        max-width: 700px;
+        margin-right: auto;
+        margin-bottom: $margin30;
+        margin-left: auto;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 
-    color: $secondary-accent;
+        color: $secondary-accent;
+    }
 }

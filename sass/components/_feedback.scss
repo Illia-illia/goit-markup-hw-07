@@ -1,79 +1,97 @@
 .feedback {
     padding: $margin40;
+
+    &__title {
+        margin-bottom: $margin12;
+
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+
+        color: $main-text;
+    }
+    
+    &__label {
+
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.01em;
+
+        color: $secondary-text;
+    }
+
+    &__wrap {
+        position: relative;
+        margin-bottom: $margin12;
+    }
+
+    &__input {
+        width: 100%;
+        height: $margin40;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        padding-left: $padding32;
+        cursor: pointer;
+        background-color: transparent;
+        outline: none;
+    }
+
+    &__input:focus {
+        border-color: $link-accent;
+    }
+
+    &__input:focus + &__icon {
+        fill: $link-accent;
+    }
+
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 12px;
+    }
+
+    &__text {
+        width: 100%;
+        min-height: 120px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        padding: $margin12 $margin16;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        resize: none;
+    }
+
+    &__text::placeholder {
+
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.01em;
+
+        color: rgba(117, 117, 117, 0.5);
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
-.feedback__title {
-    margin-bottom: $margin12;
 
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
 
-    color: $main-text;
-}
 
-.feedback__label {
 
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
 
-    color: $secondary-text;
-}
 
-.feedback__wrap {
-    position: relative;
-    margin-bottom: $margin12;
-}
 
-.feedback__input {
-    width: 100%;
-    height: $margin40;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    padding-left: $padding32;
-    cursor: pointer;
-    background-color: transparent;
-    outline: none;
-}
 
-.feedback__input:focus {
-    border-color: $link-accent;
-}
 
-.feedback__input:focus+.feedback__icon {
-    fill: $link-accent;
-}
 
-.feedback__icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 12px;
-}
 
-.feedback__text {
-    width: 100%;
-    min-height: 120px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    padding: $margin12 $margin16;
-    background-color: transparent;
-    cursor: pointer;
-    outline: none;
-    resize: none;
-}
 
-.feedback__text::placeholder {
 
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.01em;
 
-    color: rgba(117, 117, 117, 0.5);
-}
 
-.feedback__btn {
-    display: block;
-    margin: 0 auto;
-}
+

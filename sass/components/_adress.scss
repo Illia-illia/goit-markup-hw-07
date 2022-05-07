@@ -13,13 +13,13 @@
     line-height: 1.71;
 
     color: $adress-color;
-}
-
-.adress__link--white {
-    color: $secondary-accent;
-}
-
-.adress__link:hover,
-.adress__link:focus {
-    color: $link-accent;
+    
+    &--white {
+            color: $secondary-accent;
+        }
+    
+    &:hover,
+    &:focus {
+            color: $link-accent;
+        }
 }

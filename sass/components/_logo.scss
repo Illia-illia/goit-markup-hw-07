@@ -1,26 +1,18 @@
 /* Logo */
-.header__logo {
-    margin-right: 93px;
-}
-
-.footer__logo {
-    display: block;
-    margin-bottom: $margin20;
-}
-
 .logo {
     color: $link-accent;
 
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
+
+    /* Logo accent */
+    &--black {
+        color: $firstly-accent;
+    }
+
+    &--white {
+        color: $secondary-accent;
+    }
 }
 
-/* Logo accent */
-.logo--black {
-    color: $firstly-accent;
-}
-
-.logo--white {
-    color: $secondary-accent;
-}
