@@ -1,0 +1,29 @@
+.item-adress:not(:last-child) {
+    margin-bottom: var(--margin9);
+}
+
+.item-adress .link {
+    transition: color var(--duration250ms) var(--time-function);
+
+    display: block;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--secondary-accent);
+}
+
+.link.adress {
+    transition: color var(--duration250ms) var(--time-function);
+    color: var(--adress-color);
+}
+
+.link.adress:hover,
+.link.adress:focus,
+.item-adress .link:hover,
+.item-adress .link:focus {
+    color: var(--link-accent);
+}
+

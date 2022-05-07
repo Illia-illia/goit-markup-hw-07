@@ -1,6 +1,7 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
 
+
 @import './reset/my-normalize';
 
 @import './components/container';
@@ -12,13 +13,6 @@
 @import './components/adress';
 @import './components/join';
 @import './components/subscribe';
-@import './components/backdrop';
-@import './components/modal-window';
-@import './components/modal-form';
 
-@import './layout/hero';
-@import './layout/advantage';
-@import './layout/what-we-do';
-@import './layout/team';
-@import './layout/customers';
+@import './layout/gallery-works';
 @import './layout/footer';

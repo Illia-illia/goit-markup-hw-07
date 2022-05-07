@@ -1,0 +1,33 @@
+/* ===========HEADER=========== */
+.header-flex {
+    border-bottom: 1px solid var(--border-accent);
+}
+
+.header-flex .container {
+    display: flex;
+    align-items: center;
+}
+
+/* Menu nav */
+.header-list {
+    display: flex;
+}
+
+.header-item:not(:last-child) {
+    margin-right: var(--margin50);
+}
+
+.header-list .link {
+    transition: color var(--duration250ms) var(--time-function);
+
+    display: block;
+    padding-top: var(--padding32);
+    padding-bottom: var(--padding32);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--main-text);
+}

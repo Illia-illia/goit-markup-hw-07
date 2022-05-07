@@ -1,0 +1,28 @@
+/* Logo */
+.header-logo {
+    margin-right: 93px;
+}
+
+.header-logo,
+.footer-logo {
+    color: var(--link-accent);
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+/* Logo accent */
+.logo-firstly {
+    color: var(--firstly-accent);
+
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: var(--margin20);
+}
+
+.logo-secondary {
+    color: var(--secondary-accent);
+}

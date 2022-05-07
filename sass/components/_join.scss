@@ -1,0 +1,41 @@
+.join {
+    margin-left: 70px;
+}
+
+.join-title,
+.subscribe-title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--secondary-accent);
+    margin-bottom: var(--margin20);
+}
+
+.join-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-item+.join-item {
+    margin-left: var(--margin10);
+}
+
+.join-link {
+    transition: background-color var(--duration250ms) var(--time-function);
+
+    width: 44px;
+    height: 44px;
+    background-color: var(--bg-soc-link);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--secondary-accent);
+}
+
+.join-link:hover,
+.join-link:focus {
+    background-color: var(--link-accent);
+}
