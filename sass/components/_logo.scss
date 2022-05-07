@@ -1,11 +1,15 @@
 /* Logo */
-.header-logo {
+.header__logo {
     margin-right: 93px;
 }
 
-.header-logo,
-.footer-logo {
-    color: var(--link-accent);
+.footer__logo {
+    display: block;
+    margin-bottom: $margin20;
+}
+
+.logo {
+    color: $link-accent;
 
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -13,16 +17,10 @@
 }
 
 /* Logo accent */
-.logo-firstly {
-    color: var(--firstly-accent);
-
+.logo--black {
+    color: $firstly-accent;
 }
 
-.footer-logo {
-    display: block;
-    margin-bottom: var(--margin20);
-}
-
-.logo-secondary {
-    color: var(--secondary-accent);
+.logo--white {
+    color: $secondary-accent;
 }

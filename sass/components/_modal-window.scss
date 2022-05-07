@@ -7,35 +7,28 @@
     transition: transform 1000ms;
     width: 528px;
     min-height: 581px;
-    background-color: var(--secondary-accent);
+    background-color: $secondary-accent;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
 
-.modal-icon-close {
+.modal__icon-close {
     position: absolute;
     top: 8px;
     right: 8px;
     width: 30px;
     height: 30px;
     padding: 5px;
-    border: 1px solid var(--bg-modal-sec);
+    border: 1px solid $bg-modal-sec;
     border-radius: 50%;
     cursor: pointer;
     background-color: transparent;
-    transition: fill var(--duration250ms) var(--time-function);
+    transition: fill $duration250ms $time-function;
 }
 
-.modal-icon-close:focus,
-.modal-icon-close:hover {
-    fill: var(--link-accent);
-}
-
-
-.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
+.modal__icon-close:focus,
+.modal__icon-close:hover {
+    fill: $link-accent;
 }

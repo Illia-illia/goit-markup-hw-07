@@ -5,33 +5,30 @@
     align-items: center;
 }
 
-.contacts-item:not(:last-child) {
-    margin-right: var(--margin50);
-}
+.contacts__link {
+    transition: color $duration250ms $time-function;
 
-.contacts .link {
-    transition: color var(--duration250ms) var(--time-function);
-
-    padding-top: var(--padding32);
-    padding-bottom: var(--padding32);
+    padding-top: $padding32;
+    padding-bottom: $padding32;
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: var(--secondary-text);
+    color: $secondary-text;
 }
 
-.contacts-icon {
-    margin-right: var(--margin10);
+.header__icon{
+    margin-right: $margin10;
+}
+
+.contacts__icon {
     fill: currentColor;
     vertical-align: middle;
 }
 
-.header-list .link:hover,
-.header-list .link:focus,
-.contacts .link:hover,
-.contacts .link:focus {
-    color: var(--link-accent);
+.contacts__link:hover,
+.contacts__link:focus {
+    color: $link-accent;
 }

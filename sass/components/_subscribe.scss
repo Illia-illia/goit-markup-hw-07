@@ -1,32 +1,43 @@
-.subscribe {
-    margin-left: var(--margin93);
+.footer__subscribe {
+    margin-left: $margin93;
 }
 
-.subscribe-title {
+.subscribe__title {
     display: flex;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    color: $secondary-accent;
+    margin-bottom: $margin20;
 }
 
-.subscribe-input {
-    padding-left: var(--margin16);
+.subscribe__input {
+    padding-left: $margin16;
     width: 358px;
     height: 50px;
     background-color: transparent;
     outline: none;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-    color: var(--adress-color);
+    color: $adress-color;
 }
 
-.subscribe-input::placeholder {
+.subscribe__input::placeholder {
     font-size: 16px;
     line-height: 1.25;
 
-    color: var(--adress-color);
+    color: $adress-color;
 
 }
 
-.subscribe-btn {
-    margin-left: var(--margin12);
+.footer__btn{
+    margin-left: $margin12;
+}
+
+.subscribe__btn {
     padding-left: 29px;
     padding-right: 28px;
 
@@ -34,8 +45,10 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.footer__send{
+    margin-left: $margin10;
+}
 
-.subscribe-send {
-    margin-left: var(--margin10);
+.subscribe__send {
     vertical-align: middle;
 }

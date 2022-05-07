@@ -1,6 +1,6 @@
 /*Active */
-.link.active {
-    color: var(--link-accent);
+.active {
+    color: $link-accent;
     position: relative;
 }
 
@@ -14,5 +14,5 @@
     height: 4px;
     border-radius: 2px;
 
-    background-color: var(--link-accent);
+    background-color: $link-accent;
 }

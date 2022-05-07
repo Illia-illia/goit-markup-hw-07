@@ -1,12 +1,13 @@
 /* =============FOOTER====================== */
 
 .footer {
-    background-color: var(--secondary-back);
-    padding-top: var(--padding60);
-    padding-bottom: var(--padding60);
+    background-color: $secondary-back;
+    padding-top: $padding60;
+    padding-bottom: $padding60;
 }
 
-.footer-flex {
+.footer__wrap {
     display: flex;
     align-items: baseline;
 }
+

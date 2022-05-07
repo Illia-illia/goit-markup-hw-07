@@ -1,39 +1,23 @@
 /* =============What we do=================== */
 
 .what-we-do {
-    padding-top: var(--padding94);
-    padding-bottom: var(--padding94);
+    padding-top: $padding94;
+    padding-bottom: $padding94;
 }
 
-.section-caption {
-    margin-bottom: var(--margin50);
-
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-
-    color: var(--main-text);
-}
-
-.what-list {
+.what-we-do__list {
     display: flex;
-    margin-right: calc(-1 * var(--padding30));
+    margin-right: calc(-1 * $padding30);
 }
 
-.what-item {
+.what-we-do__item{
     position: relative;
 
-    flex-basis: calc(100% / 3 - var(--padding30));
-    margin-right: var(--padding30);
+    flex-basis: calc(100% / 3 - $padding30);
+    margin-right: $padding30;
 }
 
-.img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.what-text {
+.what-we-do__text {
     position: absolute;
     bottom: 0;
 
@@ -47,6 +31,6 @@
     text-align: center;
     text-transform: uppercase;
 
-    background-color: var(--what-bg);
-    color: var(--secondary-accent);
+    background-color: $what-bg;
+    color: $secondary-accent;
 }

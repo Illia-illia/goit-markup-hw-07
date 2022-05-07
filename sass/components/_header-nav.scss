@@ -1,33 +1,37 @@
 /* ===========HEADER=========== */
-.header-flex {
-    border-bottom: 1px solid var(--border-accent);
+.header{
+    border-bottom: 1px solid $border-accent;
 }
 
-.header-flex .container {
+.header__wrap {
     display: flex;
     align-items: center;
 }
 
 /* Menu nav */
-.header-list {
+.menu__list {
     display: flex;
 }
 
-.header-item:not(:last-child) {
-    margin-right: var(--margin50);
+.header__item:not(:last-child) {
+    margin-right: $margin50;
 }
 
-.header-list .link {
-    transition: color var(--duration250ms) var(--time-function);
+.menu__link {
+    transition: color $duration250ms $time-function;
 
     display: block;
-    padding-top: var(--padding32);
-    padding-bottom: var(--padding32);
+    padding-top: $padding32;
+    padding-bottom: $padding32;
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: var(--main-text);
+    color: $main-text;
+}
+.menu__link:hover,
+.menu__link:focus {
+    color: $link-accent;
 }

@@ -1,41 +1,40 @@
-.join {
+.footer__join {
     margin-left: 70px;
 }
 
-.join-title,
-.subscribe-title {
+.join__title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     font-weight: 700;
-    color: var(--secondary-accent);
-    margin-bottom: var(--margin20);
+    color: $secondary-accent;
+    margin-bottom:$margin20;
 }
 
-.join-list {
+.join__list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.join-item+.join-item {
-    margin-left: var(--margin10);
+.join__item+.join__item {
+    margin-left: $margin10;
 }
 
-.join-link {
-    transition: background-color var(--duration250ms) var(--time-function);
+.join__link {
+    transition: background-color $duration250ms $time-function;
 
     width: 44px;
     height: 44px;
-    background-color: var(--bg-soc-link);
+    background-color: $bg-soc-link;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: var(--secondary-accent);
+    fill: $secondary-accent;
 }
 
-.join-link:hover,
-.join-link:focus {
-    background-color: var(--link-accent);
+.join__link:hover,
+.join__link:focus {
+    background-color: $link-accent;
 }
