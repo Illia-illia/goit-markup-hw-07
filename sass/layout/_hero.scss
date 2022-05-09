@@ -1,5 +1,4 @@
 /* ===========HERO=========== */
-
 .hero {
     max-width: 1600px;
     height: 600px;
@@ -17,19 +16,16 @@
     padding-bottom: $padding200;
 
     text-align: center;
+}
 
-    &__capt {
-        max-width: 700px;
-        margin-right: auto;
-        margin-bottom: $margin30;
-        margin-left: auto;
+.hero__capt {
+    max-width: 700px;
+    margin-right: auto;
+    margin-bottom: $margin30;
+    margin-left: auto;
 
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+    @include font(900, 44px, 1.36, 0.06em);
+    text-transform: uppercase;
 
-        color: $secondary-accent;
-    }
+    color: $secondary-accent;
 }

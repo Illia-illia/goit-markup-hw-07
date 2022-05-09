@@ -3,18 +3,18 @@
     background-color: $secondary-back;
     padding-top: $padding60;
     padding-bottom: $padding60;
+}
 
-    &__wrap {
-        display: flex;
-        align-items: baseline;
-    }
+.footer__wrap {
+    display: flex;
+    align-items: baseline;
+}
 
-    &__logo {
-        display: block;
-        margin-bottom: $margin20;
-    }
+.footer__logo {
+    display: block;
+    margin-bottom: $margin20;
+}
 
-    &__subscribe {
-        margin-left: $margin93;
-    }
+.footer__subscribe {
+    margin-left: $margin93;
 }

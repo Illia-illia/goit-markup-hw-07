@@ -61,11 +61,13 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  /* Logo accent */
 }
+
+/* Logo accent */
 .logo--black {
   color: #000000;
 }
+
 .logo--white {
   color: #ffffff;
 }
@@ -74,13 +76,16 @@ ul {
 .header {
   border-bottom: 1px solid #ECECEC;
 }
+
 .header__wrap {
   display: flex;
   align-items: center;
 }
+
 .header__item:not(:last-child) {
   margin-right: 50px;
 }
+
 .header__logo {
   margin-right: 93px;
 }
@@ -129,6 +134,10 @@ ul {
   margin-left: auto;
   align-items: center;
 }
+.contacts__link:hover, .contacts__link:focus {
+  color: #2196f3;
+}
+
 .contacts__link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 32px;
@@ -139,9 +148,7 @@ ul {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contacts__link:hover, .contacts__link:focus {
-  color: #2196f3;
-}
+
 .contacts__icon {
   fill: currentColor;
   vertical-align: middle;
@@ -183,11 +190,12 @@ ul {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
-.adress__link--white {
-  color: #ffffff;
-}
 .adress__link:hover, .adress__link:focus {
   color: #2196f3;
+}
+
+.adress__link--white {
+  color: #ffffff;
 }
 
 .footer__join {
@@ -195,10 +203,10 @@ ul {
 }
 
 .join__title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  font-weight: 700;
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -232,10 +240,10 @@ ul {
 
 .subscribe__title {
   display: flex;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  font-weight: 700;
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -250,7 +258,6 @@ ul {
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .subscribe__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -281,14 +288,22 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.works__btn:hover, .works__btn:focus {
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .works__list {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
+
 .works__item:not(:last-child) {
   margin-right: 8px;
 }
+
 .works__btn {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 6px;
@@ -305,11 +320,6 @@ ul {
   background: #f5f4fa;
   color: #212121;
 }
-.works__btn:hover, .works__btn:focus {
-  background: #2196f3;
-  color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
 
 .gallery {
   display: flex;
@@ -317,25 +327,26 @@ ul {
   margin-right: -30px;
   margin-bottom: -30px;
 }
+.gallery__link:hover, .gallery__link:focus {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .gallery__item {
   flex-basis: calc(33.3333333333% - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
 }
+
 .gallery__link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.gallery__link:hover, .gallery__link:focus {
-  display: block;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .gallery__wrap {
   position: relative;
   overflow: hidden;
 }
-.gallery__link:hover .gallery__cover-text, .gallery__link:focus .gallery__cover-text {
-  transform: translateY(0);
-}
+
 .gallery__cover-text {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -352,6 +363,10 @@ ul {
   background-color: rgba(33, 150, 243, 0.9);
   color: #ffffff;
 }
+.gallery__link:hover .gallery__cover-text, .gallery__link:focus .gallery__cover-text {
+  transform: translateY(0);
+}
+
 .gallery__ptext {
   padding-top: 20px;
   padding-right: 24px;
@@ -361,6 +376,7 @@ ul {
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
 }
+
 .gallery__capt {
   color: #212121;
   font-weight: 700;
@@ -369,6 +385,7 @@ ul {
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
+
 .gallery__text {
   color: #757575;
   font-weight: 400;
@@ -382,14 +399,17 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer__wrap {
   display: flex;
   align-items: baseline;
 }
+
 .footer__logo {
   display: block;
   margin-bottom: 20px;
 }
+
 .footer__subscribe {
   margin-left: 93px;
 }/*# sourceMappingURL=portfolio.css.map */

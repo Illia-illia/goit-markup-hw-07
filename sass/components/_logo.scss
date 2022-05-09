@@ -3,16 +3,15 @@
     color: $link-accent;
 
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    line-height: 1.19;
 
-    /* Logo accent */
-    &--black {
-        color: $firstly-accent;
-    }
-
-    &--white {
-        color: $secondary-accent;
-    }
+    @include font(null, 26px, 1.19, null);
 }
 
+/* Logo accent */
+.logo--black {
+    color: $firstly-accent;
+}
+
+.logo--white {
+    color: $secondary-accent;
+}
